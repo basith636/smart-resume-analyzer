@@ -1,0 +1,29 @@
+SKILLORBIT SUBMISSION CHECKLIST
+
+Project: Smart Resume Analyzer with AI-Based Feedback
+Student: Mohammed Abdul Basith
+Deadline: 25 September 2026
+
+FILES INCLUDED IN THIS PACKAGE
+[✓] Complete source code
+[✓] Project documentation
+[✓] Project report (DOCX)
+[✓] Project report (PDF)
+[✓] PPT presentation
+[✓] Demo video
+[✓] Sample resume / demo data
+[✓] README and requirements
+[✓] UI screenshots
+
+EXTERNAL ITEMS STILL REQUIRING YOUR ACCOUNT/ACTION
+[ ] GitHub repository link
+[ ] Deployment link
+
+Those two links cannot be legitimately created from this offline package without access to your GitHub/deployment accounts. The source is prepared for both steps.
+
+GOOGLE DRIVE
+Put this entire folder (or the ZIP) into one Drive folder and set:
+"Anyone with the link can view"
+
+GOOGLE FORM
+Submit the Google Drive folder link through the SkillOrbit Google Form.

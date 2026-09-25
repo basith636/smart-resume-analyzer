@@ -1,0 +1,46 @@
+{
+  "AI Engineer": [
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "NLP",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "TensorFlow",
+    "PyTorch",
+    "Git"
+  ],
+  "Data Analyst": [
+    "Python",
+    "SQL",
+    "Excel",
+    "Power BI",
+    "Tableau",
+    "Statistics",
+    "Pandas",
+    "NumPy",
+    "Data Visualization"
+  ],
+  "Web Developer": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Git",
+    "REST API",
+    "SQL",
+    "Responsive Design"
+  ],
+  "Cloud Engineer": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "Docker",
+    "Kubernetes",
+    "Linux",
+    "Networking",
+    "Terraform",
+    "Git"
+  ]
+}

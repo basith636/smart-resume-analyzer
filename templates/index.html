@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Smart Resume Analyzer</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">SkillOrbit AI Capstone</div>
+  <div class="tag">Smart Resume Analyzer</div>
+</header>
+<main class="container">
+  <section class="hero">
+    <div>
+      <p class="eyebrow">AI-BASED FEEDBACK</p>
+      <h1>Analyze your resume before you apply.</h1>
+      <p class="sub">Upload a PDF or DOCX resume to evaluate structure, ATS keywords, role skills and improvement opportunities.</p>
+    </div>
+  </section>
+
+  <section class="card upload-card">
+    <form id="resumeForm">
+      <div class="grid">
+        <label>
+          <span>Target job role</span>
+          <select id="role" name="role">
+            <option>AI Engineer</option>
+            <option>Data Analyst</option>
+            <option>Web Developer</option>
+            <option>Cloud Engineer</option>
+          </select>
+        </label>
+        <label>
+          <span>Resume file</span>
+          <input id="resume" name="resume" type="file" accept=".pdf,.docx" required>
+        </label>
+      </div>
+      <button type="submit">Analyze Resume</button>
+      <p id="status" class="status"></p>
+    </form>
+  </section>
+
+  <section id="results" class="results hidden">
+    <div class="score-grid">
+      <div class="score-card"><span>Resume Score</span><strong id="resumeScore">--</strong><small>/ 100</small></div>
+      <div class="score-card"><span>ATS Compatibility</span><strong id="atsScore">--</strong><small>/ 100</small></div>
+      <div class="score-card"><span>Matched Skills</span><strong id="matchedCount">--</strong><small>skills</small></div>
+      <div class="score-card"><span>Missing Skills</span><strong id="missingCount">--</strong><small>skills</small></div>
+    </div>
+
+    <div class="two-col">
+      <div class="card">
+        <h2>Role Skill Analysis</h2>
+        <div id="skills"></div>
+      </div>
+      <div class="card">
+        <h2>Resume Structure</h2>
+        <div id="sections"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Smart Improvement Suggestions</h2>
+      <ul id="suggestions"></ul>
+    </div>
+  </section>
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>
